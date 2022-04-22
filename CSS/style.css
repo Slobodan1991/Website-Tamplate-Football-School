@@ -1,0 +1,179 @@
+/******** BODY ***********/
+
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/********** HEADER **********/
+
+#header {
+  font-weight: bold;
+  background-color: rgb(21, 37, 128);
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+#navi,
+#social-media {
+  padding: 1.5rem;
+  color: white;
+}
+
+#navi a {
+  color: white;
+  margin-left: 1rem;
+}
+
+#navi a:hover {
+  color: rgb(196, 188, 188);
+}
+
+#social-media {
+  font-size: 1.75rem;
+  padding: 1rem;
+  display: block;
+  text-align: center;
+}
+
+#social-media i {
+  margin-left: 0.25em;
+  cursor: pointer;
+}
+
+#logo img {
+  max-height: 150px;
+  vertical-align: middle;
+  background-color: white;
+  border-radius: 0 0 5px 5px;
+}
+
+/********** INTRO SECTION **********/
+
+#intro-section {
+  background-image: url(../img/soccer-stadium.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#intro-section .container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+#div1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 625px;
+  margin-top: 1rem;
+}
+
+#intro-section .container #skola {
+  position: relative;
+  width: 300px;
+  background-color: rgb(21, 37, 128);
+  color: white;
+  cursor: pointer;
+}
+
+#intro-section .container #skola:hover {
+  background-color: rgb(25, 46, 160);
+}
+
+#intro-section .container #probni {
+  position: relative;
+  width: 300px;
+  background-color: white;
+  color: rgb(21, 37, 128);
+  cursor: pointer;
+}
+
+#intro-section .container #probni:hover {
+  background-color: rgba(255, 255, 255, 0.815);
+}
+
+#intro-section .container #skola i {
+  margin-left: 5.25rem;
+  margin-top: 1rem;
+}
+
+#intro-section .container #skola i:hover {
+  margin-left: 6rem;
+  transition-duration: 0.5s;
+}
+
+#intro-section .container #probni i {
+  margin-left: 6rem;
+  margin-top: 1rem;
+}
+
+#intro-section .container #probni i:hover {
+  margin-left: 6.75rem;
+  transition-duration: 0.5s;
+}
+
+#ball {
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: block;
+  width: 50px;
+}
+
+#ball img:hover {
+  transform: rotate(360deg);
+  transition: 1s;
+  position: relative;
+}
+
+/************ VESTI ************/
+
+#vesti img {
+  width: 100%;
+  height: 100%;
+}
+
+#vesti span {
+  border: 2px solid white;
+  padding: 1rem;
+  background-color: rgb(21, 37, 128);
+  color: white;
+}
+/**************** INFO-SECTION **************/
+
+#info-section {
+  height: 850px;
+}
+
+#card #big-logo {
+  position: absolute;
+  z-index: -1;
+  height: 700px;
+  opacity: 0.2;
+  margin-top: -4.5rem;
+}
+
+#card h3 {
+  border-bottom: 2px solid black;
+  padding: 1rem 0;
+  font-weight: bold;
+}
+
+/***************** TRENING SECTION *************/
+#probni-trening {
+  background-color: rgb(240, 240, 240);
+}
+#stadium {
+  background-image: url(../img/img3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left center;
+  height: 500px;
+}
